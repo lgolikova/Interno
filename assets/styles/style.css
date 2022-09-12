@@ -21,11 +21,12 @@
     width: 75vw;
     display: flex;
     margin: 0 auto;
+    height: 831px;
 }
 
 .main-header_inner-container {
     background-image: url(/assets/images/header.png);
-    height: 831px;
-    width: 100vw;
+    /* height: 831px; */
+    width: 100%;
     background-repeat: no-repeat;
 }
