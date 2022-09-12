@@ -1,5 +1,5 @@
-.container {
-    width: 83%;
+.nav_container {
+    width: 68%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -9,11 +9,23 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    
 }
 
 .navigation a {
     text-decoration: none;
     margin-left: 30px;
     font-size: 20px;
+}
+
+.main-header_container {
+    width: 75vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-header_inner-container {
+    background-image: url(/assets/images/header.png);
+    height: 831px;
+    width: 100vw;
+    background-repeat: no-repeat;
 }
