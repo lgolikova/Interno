@@ -59,6 +59,8 @@ h1 {
 
 h4 {
     font-size: 22px;
+    font-family: 'Jost';
+    color: #4D5053;
 }
 
 .dark-grey {
@@ -83,4 +85,32 @@ h4 {
     font-family: 'Jost', sans-serif;
     margin-top: 20px;
     margin-bottom: 35px;
+}
+
+.section_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+    border: 1px solid;
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    color: #292F36;
+}
+
+.section_1 div {
+    width: 75%;
+    border: 1px solid;
+}
+
+.section_1 div h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
